@@ -1,5 +1,13 @@
 {
     "name": "thakur/calculator",
+    "license": "For Testing and demo",
     "description": "This is demo perpose",
+    "authors": [
+        {
+            "name": "Thakur Prasad",
+            "homepage": "https://github.com/thakurprasad",
+            "role": "Developer"
+        }
+    ],
     "require": {}
 }
