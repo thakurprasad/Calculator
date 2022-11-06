@@ -9,5 +9,44 @@
             "role": "Developer"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.3|~8.0.0|~8.1.0|~8.2.0",
+        "ext-json": "*",
+        "ext-soap": "*"
+    },
+    "source": {
+      "type": "git",
+      "url": "git@github.com:thakurprasad/Calculator.git",
+      "reference": "68f7f59b04aed972ebde479a6e3aaa5ff3251dd6"
+   },
+
+   "autoload": {
+        "psr-4": {
+            "Thakur\\Calculator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "v1"
+        },
+        "laravel": {
+            "providers": [
+                "Thakur\\Calculator\\CalculatorServiceProvider"
+            ],
+            "aliases": {
+         
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+
 }
