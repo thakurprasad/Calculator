@@ -13,12 +13,7 @@
         "php": "^7.3|~8.0.0|~8.1.0|~8.2.0",
         "ext-json": "*",
         "ext-soap": "*"
-    },
-    "source": {
-      "type": "git",
-      "url": "git@github.com:thakurprasad/Calculator.git",
-      "reference": "68f7f59b04aed972ebde479a6e3aaa5ff3251dd6"
-   },
+    },  
 
    "autoload": {
         "psr-4": {
@@ -32,7 +27,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.x-dev"
+            "dev-master": "2.x-dev"
         },
         "laravel": {
             "providers": [
