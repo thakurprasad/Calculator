@@ -10,7 +10,9 @@
         }
     ],
     "require": {
-        "php": "^7.1 || ^8.0"
+        "php": ">=7.0",
+        "illuminate/support": "~5.0|^6.0|^7.0|^8.0",
+        "illuminate/session": "~5.0|^6.0|^7.0|^8.0"
     },  
 
    "autoload": {
@@ -35,11 +37,6 @@
          
             }
         }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
-
+    }
+  
 }
